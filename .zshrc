@@ -127,6 +127,7 @@ eval "$(oh-my-posh init zsh --config ~/oh-my-posh/themes/uew.omp.json)"
 # color ls
 alias ll='lsd -l'
 alias ls='lsd'
+alias la='lsd -la'
 
 # bun completions
 [ -s "/home/benjadhb/.bun/_bun" ] && source "/home/benjadhb/.bun/_bun"
